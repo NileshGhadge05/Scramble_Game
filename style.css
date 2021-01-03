@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  line-height: 15vh;
+  background-color: #0a3d62;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  font-family: 'Audiowide',
+  cursive;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  text-shadow: 0 10px 4px grey;
+}
+
+section {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  font-family: 'Tajawal';
+}
+
+.gameArea {
+  width: 50%;
+  height: 400px;
+  padding: 20px 0px;
+  background-color: #3c6382;
+  font-family: 'Tajawal';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 6px -4px black;
+}
+
+.msg {
+  color: #dff9fb;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+input {
+  width: 40%;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 25px;
+  outline: none;
+  background-color: #dff9fb;
+  color: black;
+  margin: 2rem;
+  font-size: 1.1rem;
+}
+
+button {
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  border: rgb(154, 165, 165);
+  text-decoration: none;
+  margin-top: 10px;
+  color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+button.btn {
+  font-weight: 600;
+  padding: 1rem 2rem;
+  background: white;
+  text-transform: uppercase;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+button.btn:hover, button.btn:focus, button.btn:active {
+  letter-spacing: 0.125rem;
+  word-spacing: 0.2rem;
+} 
+
+.hidden {
+  display: none;
+}
